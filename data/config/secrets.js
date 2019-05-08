@@ -1,5 +1,5 @@
 module.exports = {
-  jwtSecret: process.env.JWT_SECRET || "add this variable to your .env file",
+  jwtSecret: process.env.JWT_SECRET,
 
   mantra: "for many to many, third table",
   otherMantra: "one to many > Foreign Key",
